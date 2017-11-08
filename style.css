@@ -1,0 +1,122 @@
+body {
+  color: rgb(70, 70, 70);
+  background-color: rgb(240, 240, 240);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  background-image: url("https://picsum.photos/3000/2000?random");
+  background-size: cover;
+  margin: 0;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+h2, h3 {
+  color: rgb(70, 70, 70);
+  font-weight: lighter;
+}
+
+h1 {
+  color: #17B890;
+  font-size: 30px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+a {
+  color: rgb(150, 150, 150) ;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #17B890;
+}
+
+ul{
+  list-style: none;
+}
+
+.container {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.card {
+  background-color: white;
+  margin: 15px auto;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) ;
+  border-radius: 3px;
+}
+
+#img_circle {
+  border-radius: 50%;
+  width: 130px;
+}
+
+.img_resize {
+  width: 150px;
+  border-radius: 2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-red {
+  background-color: #17B890;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.text-left-margin {
+  margin-left: 20px
+}
+
+@media (max-width: 960px) {
+   .container, .card {
+    width: 700px;
+    margin: 15px auto;
+  }
+}
+@media (max-width: 720px) {
+  .container, .card {
+    width: 500px;
+    margin: 15px auto;
+  }
+}
+@media (max-width: 540px) {
+  .container, .card {
+    width: 300px;
+    margin: 15px auto;
+  }
+}
